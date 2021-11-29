@@ -41,6 +41,10 @@ def test_december_1944():
 def test_greater_than_12_months():
 	pass
 
+@scenario('../features/retirement.feature', 'ValueError Exception is raised if the birth year is after 2021')
+def test_greater_than_2021():
+	pass
+
 
 @given("the birth year must be between 1900 and the current year")
 def step_impl():
@@ -143,3 +147,18 @@ def step_impl():
 def step_impl():
 	with pytest.raises(ValueError):
 		retirement.calculate_retirement_date(1944, 13, 66, 0)
+
+
+@given("the birth year must be equal to or less than this year")
+def step_impl():
+ pass
+
+
+@when("the user enters 2022")
+def step_impl():
+ pass
+
+@then("The program raises a ValueError Exception")
+def step_impl():
+	with pytest.raises(ValueError):
+		retirement.calculate_retirement_date(2022, 10, 66, 0)

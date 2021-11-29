@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f2af51-c7f4-40cf-9b8b-9d4789205130" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CSC256FullRetirementAgeCalculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retirement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/features/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/features/retirement.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/step_defs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/step_defs/test_retirement_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CSC256FullRetirementAgeCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CSC256FullRetirementAgeCalculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/retirement.feature" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/retirement.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/step_defs/test_retirement_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/test_retirement_steps.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="214FbhINpkPFaQkptbT5wfGmAiN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -44,9 +38,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test_retirement_steps">
     <configuration name="test_retirement_steps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSC256FullRetirementAgeCalculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,6 +147,7 @@
       <workItem from="1638129425454" duration="5067000" />
       <workItem from="1638134780024" duration="2324000" />
       <workItem from="1638137116297" duration="6681000" />
+      <workItem from="1638149226289" duration="543000" />
     </task>
     <servers />
   </component>

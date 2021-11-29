@@ -43,6 +43,11 @@ Feature: Full Retirement Age
 	When the user enters “-1899”
 	Then the program raises a ValueError Exception
 
+  Scenario: ValueError Exception is raised if the birth year is after 2021
+    Given the birth year must be equal to or less than this year
+    When the user enters 2022
+    Then The program raises a ValueError Exception
+
   Scenario: ValueError exception is raised if the birth year is before 1900
 	Given the birth year must after 1900
 	When the user enters 1899
